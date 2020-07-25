@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+header .nombre{
+    color: greenyellow;
+    font-size: 20px;
+}
+
+header span{
+color: blueviolet;
+font-size: 50px;
+}
+
+header .container{
+ margin: 20px;
+ padding: 10px;
+
+}
+
+main .container{
+    width: 100%;
+}
+main #tareas {  
+    position: relative;
+    left: 30%;
+    width: 40%;
+    margin: 20px;
+background-color: goldenrod;
+}
+
+ #tareas div .uno{
+    margin: 20px;
+
+}
