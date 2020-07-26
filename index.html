@@ -28,35 +28,22 @@
         </select>
         <input type="submit" value="Guardar">
 
+
     </header>
 
     <main>
         <div class="container">
             <div id="buscar">
-                <input type="text" placeholder="Buscar tarea">
+                <input type="text" class="buscarTarea" placeholder="Buscar tarea">
 
                 <input type="submit" value="Buscar">
             </div>
         </div>
 
         <div id="tareas">
-            <div class="uno">
-                <h1>Hacer la comida</h1>
-                <input type="submit" value="Eliminar">
-                <input type="submit" value="Editar">
-            </div>
-            <div class="dos">
-                <h1>Pasear perro</h1>
-                <input type="submit" value="Eliminar">
-                <input type="submit" value="Editar">
-            </div>
-            <div class="tres">
-                <h1>Ir al gym</h1>
-                <input type="submit" value="Eliminar">
-                <input type="submit" value="Editar">
-            </div>
-
-
+            <input type="text" class="item_input" value="Ir al gym" disabled>
+            <button class="editButton">EDITAR</button>
+            <button class="removeButton">ELIMINAR</button>
         </div>
 
     </main>

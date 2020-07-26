@@ -25,18 +25,49 @@ header .container{
 
 }
 
+header .container input{
+    height: 20px;
+    color: black;
+}
+
+header select #prioridad{
+    height: 20px;
+    color: rgb(71, 182, 27);
+}
 main .container{
     width: 100%;
 }
-main #tareas {  
-    position: relative;
-    left: 30%;
-    width: 40%;
-    margin: 20px;
-background-color: goldenrod;
+main #buscar .buscarTarea{
+height: 25px;
+
+
+}
+main #tareas .item_input {  
+    height: 30px;
+    outline: none;
+    width: 450px;
+    font-size: 20px;
+    margin: 10px;
+    background: none;
+    text-align: center;
+    color: lime;
 }
 
- #tareas div .uno{
-    margin: 20px;
-
+ main #tareas .editButton{
+    margin: 2px;
+    font-size: 10px;
+    background: none;
+    outline: none;
+    color: slateblue;
+    border:none;
+    cursor: pointer;
+}
+main #tareas .removeButton{
+    margin: 2px;
+    font-size: 10px;
+    background: none;
+    outline: none;
+    color:red;
+    border:none;
+    cursor: pointer;
 }
