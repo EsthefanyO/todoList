@@ -17,9 +17,9 @@ function borrarTarea(pTareaBorrar) {
     borrar(pTareaBorrar);
 }
 function pintarTarea(pTarea) {
-    containerTareas.innerHTML += ` <div id="${pTarea.id}" class="tarea ${pTarea.prioridad}">
+    containerTareas.innerHTML += ` <div style="" id="${pTarea.id}" class="tarea ${pTarea.prioridad}">
     <input type="text" class="item_input" value="${pTarea.titulo}" disabled>
-    <button class="editButton">EDITAR</button>
+    <button class="editButton" style="text-decoration:none">EDITAR</button>
     <button class="removeButton" onclick="borrarTarea(${pTarea.id})">ELIMINAR</button>
 </div>`;
 
