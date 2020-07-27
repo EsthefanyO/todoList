@@ -72,3 +72,20 @@ main #tarea .removeButton{
     border:none;
     cursor: pointer;
 }
+
+
+.urgente{
+    background-color: red;
+    text-decoration: none;
+    border:none;
+    border-radius: 10%;
+
+}
+
+.diario{
+    background-color: green;
+}
+
+.mensual{
+    background-color: blue;
+}

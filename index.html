@@ -7,6 +7,7 @@
     <title>To do List App</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/modelo.js"></script>
 </head>
 
 <body>
@@ -35,26 +36,23 @@
             <div id="buscar">
                 <input type="text" class="buscarTarea" placeholder="Buscar tarea">
 
-                <input type="submit" value="Buscar">
+                <input type="submit" id="tareaBuscar" value="Buscar">
             </div>
         </div>
+        <div class="contenedorTareas" id="container">
+            <div id="tarea">
+                <input type="text" class="item_input" value="Ir al gym" disabled>
+                <button class="editButton">EDITAR</button>
+                <button class="removeButton">ELIMINAR</button>
+            </div>
 
-        <div id="tarea">
-            <input type="text" class="item_input" value="Ir al gym" disabled>
-            <button class="editButton">EDITAR</button>
-            <button class="removeButton">ELIMINAR</button>
         </div>
-
-        <!--   <div id="tarea">
-            <input type="text" class="item_input" value="Ir al gym" disabled>
-            <button class="editButton">EDITAR</button>
-            <button class="removeButton">ELIMINAR</button>
-        </div> -->
     </main>
 
 
 
     <script src="js/main.js"></script>
+    <script src="js/funciones.js"></script>
 </body>
 
 </html>
