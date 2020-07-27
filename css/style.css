@@ -42,7 +42,7 @@ height: 25px;
 
 
 }
-main #tareas .item_input {  
+main #tarea .item_input {  
     height: 30px;
     outline: none;
     width: 450px;
@@ -51,9 +51,10 @@ main #tareas .item_input {
     background: none;
     text-align: center;
     color: lime;
+
 }
 
- main #tareas .editButton{
+ main #tarea .editButton{
     margin: 2px;
     font-size: 10px;
     background: none;
@@ -62,7 +63,7 @@ main #tareas .item_input {
     border:none;
     cursor: pointer;
 }
-main #tareas .removeButton{
+main #tarea .removeButton{
     margin: 2px;
     font-size: 10px;
     background: none;

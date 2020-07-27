@@ -18,16 +18,15 @@
 
         <div class="container">
 
-            <input type="text" placeholder="What do yo want to do..">
+            <input type="text" class="texto" placeholder="What do yo want to do..">
             <select id="prioridad">
-                <option value="prioridad">Elige una prioridad</option>
-                <option value="urgente">Urgente</option>
-                <option value="diario">Diario</option>
-                <option value="mensual">Mensual</option>
+                <option value="">Elige una prioridad</option>
+                <option id="urgente" value="urgente">Urgente</option>
+                <option id="diario" value="diario">Diario</option>
+                <option id="mensual" value="mensual">Mensual</option>
         </div>
         </select>
-        <input type="submit" value="Guardar">
-
+        <input type="submit" class="guardar" value="Guardar">
 
     </header>
 
@@ -40,12 +39,17 @@
             </div>
         </div>
 
-        <div id="tareas">
+        <div id="tarea">
             <input type="text" class="item_input" value="Ir al gym" disabled>
             <button class="editButton">EDITAR</button>
             <button class="removeButton">ELIMINAR</button>
         </div>
 
+        <!--   <div id="tarea">
+            <input type="text" class="item_input" value="Ir al gym" disabled>
+            <button class="editButton">EDITAR</button>
+            <button class="removeButton">ELIMINAR</button>
+        </div> -->
     </main>
 
 
